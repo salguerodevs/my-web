@@ -1,0 +1,224 @@
+/* Diseño escritorio: de 769 px hasta un máximo de 1232 px.  Hereda estilos de: Diseño móvil y Diseño tableta. */
+
+/*@media only screen and (min-width: 769px) {*/
+
+body{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  background-attachment: fixed;
+}
+
+
+#gridContainer {
+  margin: 2% auto;
+  width: 80%;
+  height: auto;
+  max-width: 1232px;
+  padding-left: 0.9%;
+  padding-right: 0.9%;
+  background-color: #00ccff;
+  border-radius: 2%;
+  overflow: hidden;
+}
+
+#head {
+  clear: none;
+  float: left;
+  margin-left: 0;
+  width: 100%;
+  display: block;
+}
+#logo {
+  clear: none;
+  float: left;
+  margin-left: 0;
+  width: 40%;
+  display: block;
+}
+#titulo {
+  clear: none;
+  float: right;
+  width: 15%;
+  display: block;
+  margin-top: 0;
+}
+
+#redes {
+  clear: none;
+  float: left;
+  margin-left: 0;
+  width: 30%;
+  display: block;
+}
+#fb {
+  clear: none;
+  float: left;
+  margin-left: 7%;
+  width: 24%;
+  display: block;
+}
+#tw {
+  clear: none;
+  float: left;
+  margin-left: 7%;
+  width: 27%;
+  display: block;
+}
+#yt {
+  clear: none;
+  float: left;
+  margin-left: 7%;
+  width: 27%;
+  display: block;
+}
+#menu {
+  clear: none;
+  float: left;
+  margin-bottom: 0;
+  width: 100%;
+  display: block;
+  background: rgb(31, 31, 32);
+}
+
+#menu ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  
+}
+
+#menu ul li {
+  display: inline-block;
+  /*background: rgb(31, 31, 32);*/
+}
+
+#menu ul li a {
+  color: white;
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  font-size: 25px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+#menu ul li a:hover{
+   background-color: red;
+}
+
+.active{
+  background-color: rgb(244, 9, 17);
+  color: black;
+}
+
+#banner {
+  clear: none;
+  float: left;
+  margin-left: 0;
+  width: 100%;
+  display: block;
+}
+#productos {
+  clear: none;
+  float: left;
+  margin-top: 1%;
+  width: 75%;
+  display: block;
+}
+
+#p1 {
+  clear: none;
+  float: left;
+  margin-left: 0;
+  width: 49%;  
+  display: block;
+}
+#p2 {
+  clear: none;
+  float: left;
+  margin-left: 1%;
+  width: 49%;
+  display: block;
+}
+
+#p3 {
+  clear: none;
+  float: left;
+  margin-left: 0;
+  width: 49%;
+  display: block;
+}
+#p4 {
+  clear: none;
+  float: left;
+  margin-left: 1%;
+  width: 49%;
+  display: block;
+}
+
+#d1 {
+  clear: none;
+  float: left;
+  width: 100%;
+  display: block;
+  font-size: 10px;
+  text-align: center;
+  color: white;
+  background-color: rgb(15, 14, 14);
+}
+
+#d2 {
+  clear: none;
+  float: left;
+  width: 100%;
+  display: block;
+  font-size: 10px;
+  text-align: center;
+  color: white;
+  background-color: rgb(15, 14, 14);
+}
+
+#d3 {
+  clear: both;
+  float: left;
+  margin-left: 0;
+  width: 100%;
+  display: block;
+  font-size: 10px;
+  text-align: center;
+  color: white;
+  background-color: rgb(15, 14, 14);
+}
+
+#d4 {
+  clear: none;
+  float: left;
+  margin-left: 0;
+  width: 100%;
+  display: block;
+  font-size: 10px;
+  text-align: center;
+  color: white;
+  background-color: rgb(15, 14, 14);
+}
+
+#promo {
+  clear: none;
+  float: left;
+  margin-left: 0;
+  margin-top: 1%;
+  width: 25%;
+  display: block;
+}
+
+#footer {
+  clear: none;
+  float: left;
+  margin-left: 0;
+  width: 100%;
+  display: block;
+}
+
+
+/*}*/
